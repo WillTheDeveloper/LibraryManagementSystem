@@ -16,15 +16,17 @@ void auth::loginuser(const std::string& username, const std::string& password)
 
     std::string dir = "students/";
 
-    user.open(username + ".txt");
+    user.open("/" + username + ".txt");
 }
 
 void auth::registeruser(const std::string& name, const std::string& username, const std::string& password)
 {
     std::ofstream user;
-    user.open(username + ".txt");
+    user.open("/" + username + ".txt");
     user << name << "\n";
     user << username << "\n";
     user << password << "\n";
     user.close();
+
+    std::cout << "User " << username << " has been created!" << std::endl;
 }

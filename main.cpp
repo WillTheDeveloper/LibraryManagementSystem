@@ -17,7 +17,18 @@ void li()
 
 void re()
 {
+    std::string n;
+    std::string u;
+    std::string p;
 
+    std::cout << "Your name: ";
+    std::cin >> n;
+    std::cout << "Username: ";
+    std::cin >> u;
+    std::cout << "Password: ";
+    std::cin >> p;
+
+    auth::registeruser(n, u, p);
 }
 
 int main() {
