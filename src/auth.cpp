@@ -14,15 +14,16 @@ void auth::loginuser(const std::string& username, const std::string& password)
 {
     std::ofstream user;
 
-    std::string dir = "students/";
+    std::string dir = "../students/";
 
-    user.open("/" + username + ".txt");
+    user.open(dir + username + ".txt");
 }
 
 void auth::registeruser(const std::string& name, const std::string& username, const std::string& password)
 {
     std::ofstream user;
-    user.open("../students/" + username + ".txt");
+    std::string dir = "../students/";
+    user.open(dir + username + ".txt");
     user << name << "\n";
     user << username << "\n";
     user << password << "\n";
