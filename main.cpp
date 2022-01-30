@@ -40,7 +40,7 @@ int main() {
 
     int choice;
 
-    std::cout << "Enter selection:";
+    std::cout << "Enter selection: ";
     std::cin >> choice;
 
     switch (choice) {
