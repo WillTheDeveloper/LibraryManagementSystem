@@ -1,0 +1,12 @@
+//
+// Created by will on 30/01/2022.
+//
+
+#ifndef LIBRARYMANAGEMENTSYSTEM_STUDENTS_H
+#define LIBRARYMANAGEMENTSYSTEM_STUDENTS_H
+
+namespace student {
+
+}
+
+#endif //LIBRARYMANAGEMENTSYSTEM_STUDENTS_H
