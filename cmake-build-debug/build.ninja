@@ -84,6 +84,12 @@ build CMakeFiles/LibraryManagementSystem.dir/src/students.cpp.o: CXX_COMPILER__L
   OBJECT_DIR = CMakeFiles/LibraryManagementSystem.dir
   OBJECT_FILE_DIR = CMakeFiles/LibraryManagementSystem.dir/src
 
+build CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o: CXX_COMPILER__LibraryManagementSystem_Debug /home/will/CLionProjects/LibraryManagementSystem/src/auth.cpp || cmake_object_order_depends_target_LibraryManagementSystem
+  DEP_FILE = CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/LibraryManagementSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles/LibraryManagementSystem.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LibraryManagementSystem
@@ -92,7 +98,7 @@ build CMakeFiles/LibraryManagementSystem.dir/src/students.cpp.o: CXX_COMPILER__L
 #############################################
 # Link the executable LibraryManagementSystem
 
-build LibraryManagementSystem: CXX_EXECUTABLE_LINKER__LibraryManagementSystem_Debug CMakeFiles/LibraryManagementSystem.dir/main.cpp.o CMakeFiles/LibraryManagementSystem.dir/src/students.cpp.o
+build LibraryManagementSystem: CXX_EXECUTABLE_LINKER__LibraryManagementSystem_Debug CMakeFiles/LibraryManagementSystem.dir/main.cpp.o CMakeFiles/LibraryManagementSystem.dir/src/students.cpp.o CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LibraryManagementSystem.dir
   POST_BUILD = :

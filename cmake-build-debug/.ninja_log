@@ -1,0 +1,14 @@
+# ninja log v5
+1	8	1643554821580691808	CMakeFiles/LibraryManagementSystem.dir/src/students.cpp.o	a1fcf08f7a7b468f
+0	186	1643554821756690493	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+0	204	1643554821776690344	CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o	aca0568fcffa7ecc
+1	182	1643554857464423291	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+1	181	1643554877312274791	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+0	184	1643555020635202934	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+0	202	1643555020655202785	CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o	aca0568fcffa7ecc
+0	175	1643555063990878873	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+0	200	1643555064014878691	CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o	aca0568fcffa7ecc
+201	247	1643555064062878335	LibraryManagementSystem	a5cc00ae4dc327ad
+0	178	1643555102250592923	CMakeFiles/LibraryManagementSystem.dir/main.cpp.o	5259e5775c986281
+0	199	1643555102270592774	CMakeFiles/LibraryManagementSystem.dir/src/auth.cpp.o	aca0568fcffa7ecc
+199	246	1643555102318592416	LibraryManagementSystem	a5cc00ae4dc327ad
