@@ -1,4 +1,4 @@
-# LibraryManagementSystem
+# Library Management System
 
 Just a application where you are able to:
 - Add books
