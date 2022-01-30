@@ -4,4 +4,6 @@
 
 #include "students.h"
 
+using namespace student;
+
 
